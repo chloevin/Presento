@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+}
+
+.slider {
+    width: 500px;
+    margin: 150px auto;
+}
+
+.img-div {
+    width: 200px;
+    height: 100px;
+    margin: 0 15px;
+}
+
+
+.div1 {
+    background: url(portfolio-1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.div2 {
+    background: url(portfolio-2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.div3 {
+    background: url(portfolio-3.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.div4 {
+    background: url(portfolio-4.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.slick-prev, .slick-next{
+    visibility: hidden;
+}
+
